@@ -1,0 +1,15 @@
+/* Estilo del botón */
+button {
+    width: 83%;
+    padding: 12px 0;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top: 10px;  /* Añadido para bajar el botón 2px */
+  }
+  

@@ -1,0 +1,110 @@
+
+
+/* Estilo general para la aplicación */
+.App {
+  font-family: Arial, sans-serif; /* Establecer fuente */
+  max-width: 800px; /* Ancho máximo */
+  margin: 0 auto; /* Centrar contenido */
+  padding: 20px; /* Espaciado interno */
+  background-color: #f9f9f9; /* Color de fondo claro */
+  border-radius: 8px; /* Bordes redondeados */
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Sombra */
+  text-align: center; /* Centrar texto en la aplicación */
+}
+
+/* Estilos para el título de la aplicación */
+.app-title {
+  color: #333; /* Color del texto */
+  margin-bottom: 20px; /* Espacio debajo del título */
+}
+
+/* Estilo para el formulario */
+form {
+  margin-bottom: 0px; /* Espacio debajo del formulario */
+}
+
+/* Estilo de los inputs */
+input {
+  margin: 5px; /* Espaciado alrededor de los inputs */
+  padding: 10px; /* Espaciado interno de los inputs */
+  width: 600px; /* Ancho de los inputs */
+}
+
+/* Estilo del botón */
+button {
+  width: 83%;
+  padding: 12px 0;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-top: 10px;  /* Añadido para bajar el botón 2px */
+}
+
+
+/* Efecto hover del botón */
+button:hover {
+  background-color: #45a049; /* Cambiar color de fondo al pasar el mouse */
+}
+
+/* Estilos para el encabezado h2 */
+h2 {
+  color: #333; /* Color del texto */
+}
+
+/* Estilo para listas sin viñetas */
+ul {
+  list-style-type: none; /* Sin viñetas */
+  padding: 0; /* Sin padding */
+}
+
+/* Estilos para la barra de navegación */
+nav {
+  margin-bottom: 20px; /* Espacio debajo del navbar */
+}
+
+/* Estilo de los enlaces en la navegación */
+nav a {
+  text-decoration: none; /* Sin subrayado */
+  color: blue; /* Color del texto */
+  margin: 0 10px; /* Espaciado entre enlaces */
+}
+
+/* Efecto hover en los enlaces de la navegación */
+nav a:hover {
+  text-decoration: underline; /* Subrayar al pasar el mouse */
+}
+
+/* Estilo del contenedor de contenido */
+.content {
+  padding: 20px; /* Espaciado interno para el contenido */
+  background-color: white; /* Fondo blanco para el contenido */
+  border-radius: 8px; /* Bordes redondeados */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Sombra para el contenido */
+}
+
+/* Estilo para la barra de navegación */
+.navbar {
+  display: flex; /* Disposición en fila */
+  justify-content: center; /* Centrando los enlaces */
+}
+
+/* Estilo para los enlaces de navegación */
+.nav-link {
+  text-decoration: none; /* Sin subrayado */
+  color: #4CAF50; /* Color del texto */
+  padding: 10px 20px; /* Espaciado alrededor del enlace */
+  border-radius: 5px; /* Bordes redondeados */
+  transition: background-color 0.3s ease; /* Transición suave */
+}
+
+/* Efecto hover en los enlaces de navegación */
+.nav-link:hover {
+  background-color: #45a049; /* Color de fondo al pasar el mouse */
+  color: white; /* Cambiar color del texto al pasar el mouse */
+}
+

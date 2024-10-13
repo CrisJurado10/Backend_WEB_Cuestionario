@@ -1,0 +1,108 @@
+/* src/components/QuestionList.css */
+
+.question-list {
+    margin: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+  }
+  
+  .question-item {
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 1px solid #e1e1e1;
+    border-radius: 5px;
+    background-color: #fff;
+  }
+  
+  .options-list {
+    list-style-type: none;
+    padding-left: 0;
+  }
+  
+  .option {
+    padding: 5px;
+    margin: 5px 0;
+    border-radius: 4px;
+  }
+  
+  .option.correct {
+    background-color: #d4edda; /* Color verde claro para la opción correcta */
+    color: #155724; /* Texto verde oscuro */
+  }
+  
+  /* src/components/QuestionList.css */
+
+.question-list {
+  margin: 20px; /* Margen alrededor de la lista */
+}
+
+/* Estilos para la tabla */
+table {
+  width: 100%; /* Ancho completo */
+  border-collapse: collapse; /* Colapsar bordes */
+}
+
+th, td {
+  border: 1px solid #ddd; /* Bordes de celda */
+  padding: 8px; /* Espaciado interno de celdas */
+  text-align: left; /* Alinear texto a la izquierda */
+}
+
+th {
+  background-color: #4CAF50; /* Color de fondo del encabezado */
+  color: white; /* Color del texto del encabezado */
+}
+
+/* Estilo para las celdas de texto de preguntas largas */
+.question-text {
+  max-width: 200px; /* Limitar ancho */
+  white-space: nowrap; /* Evitar salto de línea */
+  overflow: hidden; /* Ocultar texto que se desborde */
+  text-overflow: ellipsis; /* Mostrar "..." si el texto es demasiado largo */
+}
+
+/* Tooltip que aparece al pasar el mouse sobre la pregunta */
+.question-text:hover {
+  overflow: visible; /* Hacer visible el texto al pasar el mouse */
+  white-space: normal; /* Permitir salto de línea */
+  background-color: #f9f9f9; /* Color de fondo del tooltip */
+  z-index: 1; /* Asegurarse de que esté por encima */
+}
+
+/* src/components/QuestionList.css */
+
+.question-list {
+  margin: 20px; /* Margen alrededor de la lista */
+}
+
+/* Estilos para la tabla */
+table {
+  width: 100%; /* Ancho completo */
+  border-collapse: collapse; /* Colapsar bordes */
+}
+
+th, td {
+  border: 1px solid #ddd; /* Bordes de celda */
+  padding: 8px; /* Espaciado interno de celdas */
+  text-align: left; /* Alinear texto a la izquierda */
+}
+
+/* Ajusta el encabezado para que ocupe el espacio necesario */
+th {
+  background-color: #4CAF50; /* Color de fondo del encabezado */
+  color: white; /* Color del texto del encabezado */
+}
+
+/* Estilo para las celdas de texto de preguntas largas */
+.question-text {
+  /* Eliminar las restricciones de ancho y comportamiento de overflow */
+  white-space: normal; /* Permitir que el texto se divida en varias líneas */
+  overflow-wrap: break-word; /* Romper palabras largas para que se ajusten al contenedor */
+}
+
+/* Tooltip que aparece al pasar el mouse sobre la pregunta */
+.question-text:hover {
+  background-color: #f9f9f9; /* Color de fondo del tooltip */
+}
